@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {AiOutlineCheckCircle} from 'react-icons/ai'
+import { AiOutlineCheckCircle } from 'react-icons/ai'
 
 const Experience = () => {
   return (
@@ -13,33 +13,40 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <AiOutlineCheckCircle className='experience__details-icon' />
               <div>
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
-            
+
             <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <AiOutlineCheckCircle className='experience__details-icon' />
               <div>
-               <h4>CSS</h4>
-              <small className='text-light'>Intermediate</small> 
-              </div>  
+                <h4>CSS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
             <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <AiOutlineCheckCircle className='experience__details-icon' />
               <div>
-              <h4>Java Script</h4>
-              <small className='text-light'>Experienced</small>  
-              </div>  
+                <h4>JAVASCRIPT</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
 
             <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <AiOutlineCheckCircle className='experience__details-icon' />
               <div>
-              <h4>React</h4>
+                <h4>REACT</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+            <AiOutlineCheckCircle className='experience__details-icon' />
+              <div>
+              <h4>REDUX</h4>
               <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -48,31 +55,29 @@ const Experience = () => {
 
         {/* BACKEND */}
         <div className='experience__backend'>
-        <h3>Backend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <AiOutlineCheckCircle className='experience__details-icon' />
               <div>
-              <h4>NODE JS</h4>
+                <h4>NODE JS</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>POSTGRESQL</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+            <AiOutlineCheckCircle className='experience__details-icon' />
+              <div>
+              <h4>EXPRESS</h4>
               <small className='text-light'>Intermediate</small>
               </div>
             </article>
-
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>MySQL</h4>
-              <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiOutlineCheckCircle className='experience__details-icon'/>
-              <div>
-              <h4>Python</h4>
-              <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-           
           </div>
         </div>
       </div>

@@ -11,10 +11,10 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary:#4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #;
+    --color-bg-variant: #442414;
+    --color-primary:#C36E2C;
+    --color-primary-variant: #623E26;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -33,12 +33,16 @@ html {
     display: none
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background: var(--color-bg);
-    color:var(--color-white);
+    color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/background-gb55095bcb_1280.jpg);
+    background-image: url(../src/assets/pexels-eva-bronzini-7599547.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center; /* Ajusta la posición de la imagen */
 }
 
 /* GENERAL STYLES */
@@ -76,7 +80,7 @@ section > h2 {
 }
 
 .text-light{
-    color: var(--color-light)
+    color: white
 }
 
 a{
@@ -97,10 +101,13 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    color:var(--color-bg);
+    background: var(--color-primary);
+    
 }
 
 .btn:hover{
-    background:var(--color-white);
+    background:#E29134;
     color:var(--color-bg);
     border-color:transparent;
 }

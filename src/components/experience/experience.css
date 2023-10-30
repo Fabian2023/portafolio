@@ -53,6 +53,7 @@
         width: 80%;
         padding: 2rem;
         margin:0 auto;
+        margin-right: 0rem;
     }
 
     .experience__content{
@@ -69,6 +70,7 @@
     .experience__container > div{
         width: 100%;
         padding: 2rem 1rem;
+        margin-left:-1.2rem;
     }
 
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {BsCheck} from 'react-icons/bs'
+import { BsCheck } from 'react-icons/bs'
 
 const Services = () => {
   return (
@@ -9,39 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className='container services__container'>
-        <article className='service'>
-          <div className="service__head">
-            <h3>UI/UX Design</h3>
-          </div>
 
-          <ul className='service__list'>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
-            </li>
-          </ul>
-        </article>
-        {/* END  OF UI/UX */}
 
         <article className='service'>
           <div className="service__head">
@@ -50,65 +18,67 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Custom Web Application Development</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Maintenance and Enhancement of Existing Websites</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>E-commerce Application Development</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Online Payment Integration</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Integration of APIs and External Services</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Dashboard Creation and Analytics</p>
             </li>
           </ul>
         </article>
+
         {/* END  OF WEB DEVELOPMENT */}
 
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Front Content</h3>
           </div>
 
           <ul className='service__list'>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Dynamic UI components with React.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>State management with Redux for seamless data flow.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Responsive design using CSS for optimal user experience.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Efficient data fetching and updates with React and Redux.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>Integration of external APIs for enhanced functionality.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <BsCheck className='service__list-icon' />
+              <p>styling and animations with CSS.</p>
             </li>
           </ul>
         </article>
+
         {/* END  OF CONTENT CREATION */}
       </div>
     </section>

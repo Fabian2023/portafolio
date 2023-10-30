@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
     display: grid;
     place-items: center;
+    align-items: start; /* Alinea el contenido hacia la parte superior */
 }
 .about__me-image {
     border-radius: 2rem;
@@ -18,8 +19,10 @@
     transform: rotate(10deg);
     transition:var(--transition);
     aspect-ratio: 1/1;
-    
+    /* object-position: center center; */
+
 }
+
 
 .about__me-image:hover{
     transform:rotate(0)
@@ -88,7 +91,7 @@
 /* MEDIA QUERY FOR SMALL DEVICES */
 @media screen and (max-width: 600px){
     .about__me {
-        width:65%;
+        width:60%;
         margin:0 auto 3rem;
     }
 
@@ -103,5 +106,9 @@
 
     .about__content p{
         margin: 1.5rem 0;
+    }
+
+    .about__container {
+        margin-top: -100rem; /* Ajusta el valor según sea necesario */
     }
 }

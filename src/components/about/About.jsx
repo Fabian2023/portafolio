@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/foto perfil 3.jpg'
+import ME from '../../assets/ME1.jpeg'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {MdFolderCopy} from 'react-icons/md'
@@ -8,9 +8,10 @@ import {FaReact} from 'react-icons/fa'
 import {IoLogoCss3} from 'react-icons/io'
 import {SiJavascript} from 'react-icons/si'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiAdobephotoshop} from 'react-icons/si'
-import {SiAdobeillustrator} from 'react-icons/si'
-import {SiAdobepremierepro} from 'react-icons/si'
+import{BsFileEarmarkWordFill} from 'react-icons/bs'
+import{SiMicrosoftpowerpoint}from"react-icons/si"
+import{BsFillFileEarmarkExcelFill}from "react-icons/bs"
+import{BsMicrosoft}from "react-icons/bs"
 
 
 
@@ -32,16 +33,16 @@ const About = () => {
             <article className='about__card'>
               <BsFillAwardFill className='about__icon'/>       
               <h5>Experience</h5>
-              <small>1+ Years Coding + Fluen in english and spanish</small>
+              <small>Henry Bootcamp. 800 hours of hands-on theoretical and practical coursework - 2023.</small>
             </article>
            
             <article className='about__card'>
               <FiUsers className='about__icon'/>       
               <h5>Main stack</h5>
               <small>
-                <FaReact className='about__icon'/>,
-                <IoLogoCss3 className='about__icon'/>
+                <FaReact className='about__icon'/>
                 <SiJavascript className='about__icon'/>
+                <IoLogoCss3 className='about__icon'/>
                 <AiFillHtml5 className='about__icon'/>
                 </small>
             </article>
@@ -50,15 +51,16 @@ const About = () => {
               <MdFolderCopy className='about__icon'/>       
               <h5>Complementary stack</h5>
               <small> 
-                <SiAdobephotoshop className='about__icon'/>
-                <SiAdobeillustrator className='about__icon'/>
-                <SiAdobepremierepro className='about__icon'/>
+                <BsMicrosoft className='about__icon'/>
+                <SiMicrosoftpowerpoint className='about__icon'/>
+                <BsFileEarmarkWordFill className='about__icon'/>
+                <BsFillFileEarmarkExcelFill className='about__icon' />
               </small>
             </article>
           </div>
 
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sint et modi obcaecati eveniet dicta, ea soluta. Impedit, veritatis? Culpa similique autem unde in doloremque, quis vero eum natus obcaecati.
+        Passionate Full Stack web developer with expertise in technologies such as JavaScript, React, Node.js, and PostgreSQL. Committed to crafting comprehensive and efficient solutions from frontend to backend.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>

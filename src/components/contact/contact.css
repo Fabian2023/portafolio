@@ -1,0 +1,3 @@
+.contact {
+    display: inline-block; /* Esto asegura que el botón no se extienda al 100% del ancho */
+  }
