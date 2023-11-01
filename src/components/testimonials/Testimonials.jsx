@@ -18,17 +18,17 @@ const data = [
   {
     avatar:AVTR1,
     name: 'Alejandra Arenas',
-    review: 'conozco a Fabian hace muchos años y puedo constatar que es una persona comprometida, responsable, con ganas de aprender y superarse!'
+    review: 'I have known Fabian for many years and I can attest that he is a committed, responsible person with a desire to learn and grow.!'
   },
   {
     avatar:AVTR2,
-    name: 'Santiago',
-    review: 'Tuve la oportunidad de trabajar con Fabian en el proyecto final del Bootcamp y podria decir que es creativo en la resolucion de problemas, tiene conocimientos firmes!'
+    name: 'Santiago Ramirez',
+    review: 'I had the opportunity to work with Fabian on the final project of the Bootcamp, and I could say that he is creative in problem-solving and has strong knowledge!'
   },
   {
     avatar:AVTR3,
     name: 'Oscar Mellizo',
-    review: 'lo conozco de hace varios años y se que tiene habilidades para trabajar en equipo y poder sacar adelante un proyecto en cualquier compañia Tech!'
+    review: 'I have known him for several years, and I know he has the skills to work in a team and successfully carry out a project in any tech company!'
   },
   
 ]

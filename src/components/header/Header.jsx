@@ -18,6 +18,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
+        
       </div>
 
 

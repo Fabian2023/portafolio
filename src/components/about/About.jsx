@@ -16,6 +16,8 @@ import{BsMicrosoft}from "react-icons/bs"
 
 
 const About = () => {
+
+  const linkedinProfileURL = 'https://www.linkedin.com/in/fabian-salcedo-23050442/'
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -63,7 +65,7 @@ const About = () => {
         Passionate Full Stack web developer with expertise in technologies such as JavaScript, React, Node.js, and PostgreSQL. Committed to crafting comprehensive and efficient solutions from frontend to backend.
         </p>
 
-        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        <a href={linkedinProfileURL} className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
