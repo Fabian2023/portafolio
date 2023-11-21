@@ -83,7 +83,7 @@ const Services = () => {
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>priciples Solid</p>
+              <p>principles Solid</p>
             </li>
             
             
