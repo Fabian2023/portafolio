@@ -41,6 +41,11 @@ const Services = () => {
               <BsCheck className='service__list-icon' />
               <p>Dashboard Creation and Analytics</p>
             </li>
+           
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>User Authentication and Authorization</p>
+            </li>
           </ul>
         </article>
 
@@ -48,7 +53,7 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Front Content</h3>
+            <h3>More Content</h3>
           </div>
 
           <ul className='service__list'>
@@ -58,24 +63,30 @@ const Services = () => {
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>State management with Redux for seamless data flow.</p>
+              <p>State management with Redux for seamless data.</p>
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>Responsive design using CSS for optimal user experience.</p>
+              <p>Responsive design </p>
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>Efficient data fetching and updates with React and Redux.</p>
+              <p>Efficient data fetching and updates with React-Redux.</p>
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>Integration of external APIs for enhanced functionality.</p>
+              <p>Social Media Integration</p>
             </li>
             <li>
               <BsCheck className='service__list-icon' />
-              <p>styling and animations with CSS.</p>
+              <p>Accessibility Features</p>
             </li>
+            <li>
+              <BsCheck className='service__list-icon' />
+              <p>priciples Solid</p>
+            </li>
+            
+            
           </ul>
         </article>
 
