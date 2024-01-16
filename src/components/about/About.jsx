@@ -35,7 +35,8 @@ const About = () => {
             <article className='about__card'>
               <BsFillAwardFill className='about__icon'/>       
               <h5>Experience</h5>
-              <small>Henry Bootcamp. 800 hours of hands-on theoretical and practical coursework - 2023.</small>
+              <small>Konigsberg Soluciones Integrales de Software SAS. </small>
+              <small>Henry Bootcamp- 2023. </small>
             </article>
            
             <article className='about__card'>
